@@ -127,6 +127,7 @@
     <Content Include="Global.asax" />
     <Content Include="Pages\Display_data.aspx" />
     <Content Include="Pages\Display_data_from_view.aspx" />
+    <Content Include="Pages\Drop-downs.aspx" />
     <Content Include="Pages\Insert_data.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="Pages\Display_data_from_view.aspx.designer.cs">
       <DependentUpon>Display_data_from_view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Drop-downs.aspx.cs">
+      <DependentUpon>Drop-downs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Drop-downs.aspx.designer.cs">
+      <DependentUpon>Drop-downs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Insert_data.aspx.cs">
       <DependentUpon>Insert_data.aspx</DependentUpon>

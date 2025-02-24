@@ -129,6 +129,7 @@
     <Content Include="Pages\Display_data_from_view.aspx" />
     <Content Include="Pages\Drop-downs.aspx" />
     <Content Include="Pages\Insert_data.aspx" />
+    <Content Include="Pages\Login.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -244,6 +245,13 @@
     </Compile>
     <Compile Include="Pages\Insert_data.aspx.designer.cs">
       <DependentUpon>Insert_data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

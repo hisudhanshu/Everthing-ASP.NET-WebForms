@@ -23,27 +23,26 @@
 
         <div class="form-box login">
             <h2 class="title animation" style="--i: 0; --j: 21">Login</h2>
-            <form action="#">
+           <form method="post" runat="server">
+    <div class="input-box animation" style="--i: 1; --j: 22">
+        <input type="text" name="username" required>
+        <label for="">Username</label>
+        <i class='bx bxs-user'></i>
+    </div>
 
-                <div class="input-box animation" style="--i: 1; --j: 22">
-                    <input type="text" required>
-                    <label for="">Username</label>
-                    <i class='bx bxs-user'></i>
-                </div>
+    <div class="input-box animation" style="--i: 2; --j: 23">
+        <input type="password" name="password" required>
+        <label for="">Password</label>
+        <i class='bx bxs-lock-alt'></i>
+    </div>
 
-                <div class="input-box animation" style="--i: 2; --j: 23">
-                    <input type="password" required>
-                    <label for="">Password</label>
-                    <i class='bx bxs-lock-alt'></i>
-                </div>
+    <button type="submit" class="btn animation" style="--i: 3; --j: 24" onserverclick="LoginUser" runat="server">Login</button>
 
-                <button type="submit" class="btn animation" style="--i: 3; --j: 24">Login</button>
+    <div class="linkTxt animation" style="--i: 5; --j: 25">
+        <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+    </div>
+</form>
 
-                <div class="linkTxt animation" style="--i: 5; --j: 25">
-                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
-                </div>
-
-            </form>
         </div>
 
         <div class="info-text login">
